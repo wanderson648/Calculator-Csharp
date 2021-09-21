@@ -112,7 +112,7 @@ namespace Calculator
 
             double resultado = valor1 + valor2;      
 
-            Console.WriteLine($"O resultado é = [ {resultado.ToString("F2", CultureInfo.InvariantCulture)} ]");  
+            Console.WriteLine($"O resultado é = [ {resultado.ToString("F1", CultureInfo.InvariantCulture)} ]");  
             Console.ReadKey();
             CalcPadrao();
         }
